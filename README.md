@@ -1,5 +1,5 @@
-# <p align="center">Development of Health Incentive Program at SuperLife</p>
-## <p align="center">@UNSW PEA Team</p>
+# Development of Health Incentive Program at SuperLife
+## @UNSW PEA Team
 
 _“Old age is not a disease - it is strength and survivorship, triumph over all kinds of vicissitudes and disappointments, trials and illnesses.” - Maggie Kuhn_
 
