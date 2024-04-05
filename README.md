@@ -84,7 +84,52 @@ Output:
 |T20|50|46-50|630886.9|16.63%|
 >Note:  The most representative age is selected as the critical age for following modelling.
 
+#### Health Incentive Programs:
+In our ongoing commitment to the well-being and safety of our policyholders, we could find two most cost-effective health incentive programs: the Safety Campaign and Social Connection Initiatives, as shown in Figure 3 (Appendix 6). These programs are designed to address significant health risks and improve our community's overall quality of life, mainly focusing on the unique needs of adults over 70. For detailed information on health incentive programs, please refer to Appendix 7
+<img width="283" alt="image" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/112842704/f5585c8e-0441-4a1c-9e95-f0489bc02f50">
+
+**Safety Campaign **
+The significance of unintentional home injuries cannot be understated. Lundgren et al. (2009) pointed out that, compared to younger adults, adults aged more than 70 face more significant risks and more severe outcomes from safety-related injuries and deaths. A similar study by Runyan and Casteel found that for individuals aged 70 and older, home injuries are responsible for over 7,000 deaths and 1.7 million emergency room visits annually in the United States alone. Addressing this issue, DiGuiseppi et al. (2010) emphasized that conducting safety education can effectively reduce mortality rates, underscoring the importance of education to mitigate the risks associated with unintentional home injuries among the elderly.
+
+**Social Connection**
+In the contemporary world, the silent epidemic of social isolation is increasingly recognized as a significant public health concern. The risk of social isolation increases with age (National Academies of Sciences, 2020). The findings suggest that deficits in social relationships are not only related to mental health but also associated with physical health problems. Social isolation can increase the risk of coronary heart disease and stroke (Valtorta et al., 2015). 
+The Social Connection Initiatives are introduced in health insurance as an interventional program encouraging social activities to foster community and reduce isolation. A meta-analysis has found that stronger social bonds may increase the survival rate by 50%, supporting the argument (Holt-Lunstad et al., 2010). Research shows that social connections can extend life, improve health, and improve well-being by influencing people’s minds, bodies, and behaviours—all impacting our health and life expectancy (CDC, 2023).
+
+
 ## Modelling and Pricing	
+### Product General Information
+<img width="795" alt="image" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/112842704/0b3c2884-19b8-4b56-90bc-4969e12ebe25">
+
+### Underwriting
+The underwriting philosophy and guidelines for SPWL and T20 are similar.
+The information collected for the underwriting decision includes:
+- Health disclosure questionnaire as part of NB Application Forms
+- Medical history statement if the applicant has any medical history.
+- Occupational and Lifestyle factors (e.g. smokers are excluded [Appendix 8])
+  
+With all the information, the underwriter is to decide the rating of the underwriting class. Based on different ratings, the possible underwriting decisions are:
+
+- Agreed as standard
+- Agreed with exclusion
+- Sub-standard 
+- Postpone
+- Decline
+The maximum sub-standard rate is up to 400% extra mortality.
+
+Expenses:
+Besides the cost of the Health Incentive Program, we assume a variety of expenses from acquisition cost (under the basis of both per policy and % of premium), maintenance fee, commission fee (% of premium), taxation (premium tax, stability fund tax and federal tax) and solvency margins (% of accumulative reserve, % of net amount at risk and % of premium).
+
+Economic:
+Since SuperLife mainly focuses on life products, we assume they prudently allocate their assets to long-term, risk-free targets.
+Additionally, since the historical inflation fluctuated, we consider a fixed rate of 4% instead. We also assume that SuperLife’s hurdle rate is 5%.
+
+Lapse:
+There is no significant difference in benefit features between the new and old products, so the policyholder behaviour should be similar. For this reason, we apply the historical lapse rate from the inforce dataset. Note that SPWL is a whole-life product with a lump-sum payment, so there is no lapse.
+
+Distribution:
+We assume future policy distribution by pivotal ages with average face amount and percentage from the inforce dataset. Please refer to Appendix 9 Excel file in the sheet “Distribution”.
+
+
 ## Scenario analysis
 In scenario testing, we performed the best estimated and sensitivity testing on the expense, mortality rate, inflation rate, investment yield and lapse rate.
 In addition to conducting a stress test on investment yields, we examined the minimum face amount to determine if adjustments were necessary.
