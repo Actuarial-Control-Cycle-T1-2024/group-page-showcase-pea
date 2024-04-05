@@ -45,8 +45,44 @@ After further Data Cleaning (Appendix 1), some tendencies in numerical variables
 Modelling 1: Lapse rate analysis on T20 product 
 To explore customer behaviour, we have calculated the lapse rate at each policy year. Since there is no lapse in the Whole-life policy, it would be more meaningful to analyse the lapse rate of the 20-year term insurance product. 
 Methodology (Appendix 3):
-Lapse rate=(number of lapse at policy year T)/(Number of existing policies at policy year T)
-Findings:  The graph on the left shows the likelihood of withdrawing from 20-year term insurance at each policy year. Universally, it shows a decreasing trend, which indicates that people are less and less likely to withdraw from their policy as time passes until the end of the policy is approaching. The intuition behind the surge is that policyholders have found themselves unable to make claims as the policy is ending. Therefore, they opt to withdraw from their policy to get a certain amount of refund before the policy is completely terminated.![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/61b6c797-1ebf-4869-890a-5c42ca359bae)
+$$Lapse\ rate=\frac{number\ of\ lapse\ at\ policy\ year\ T}{Number\ of\ existing\ policies\ at\ policy\ year\ T}$$
+Findings:  The graph below shows the likelihood of withdrawing from 20-year term insurance at each policy year. Universally, it shows a decreasing trend, which indicates that people are less and less likely to withdraw from their policy as time passes until the end of the policy is approaching. The intuition behind the surge is that policyholders have found themselves unable to make claims as the policy is ending. Therefore, they opt to withdraw from their policy to get a certain amount of refund before the policy is completely terminated
+
+![trend of lapse rate](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/112842704/c355ae8b-f764-44e7-ba8c-75c4f1cb6b62)
+
+Modelling 2: Smoker and Non-smoker face amount analysis:
+Considering the profitability of an insurance product, it is essential to have underwriting before commencing a policy. For our products, we have analysed the difference in average face amount between smokers and non-smokers and by policy type. 
+Methodology:
+Since we want to analyse the face amount insured of smokers and non-smokers separately, we have split the dataset by “Smoker. Status”. Each group is analysed by policy types. 
+Findings: 
+| | T20 | SPWL |
+|:---:|:---:|:---:|
+| Smoker | 434,165 | 658,947 |
+| Non-smoker | 618,139 | 771,984 |
+
+The average face amount insured by smokers is lower than that of non-smokers. Especially for T20 policyholders, there is a significant gap between these two groups. Therefore, the market and premium revenue from the Smoker group are relatively smaller than those of the Non-Smoker group. 
+Modelling 3: Projection of interest rate
+Interest rate projection is required in such a process to model future cash flows in addition to the standard interest rate.
+Methodology: 
+A stochastic model is employed here to project the interest rate, as the covariates are not sufficiently provided for Lumania, where the randomness, variability, or uncertainty would also be considered. So, we used the Vasicek Model to forecast our 10-year risk-free rates. 
+Firstly, we calculated the required parameters by MLE obtained from the entire dataset of the 10-year risk-free rate, then applied those parameters to our formula below. 
+$$dr_t=\kappa(\theta-r_t )dt+\sigma dW_t$$
+Then, we can obtain a series of $r_t=r_{t-1}+dr_{t-1}$ by iteration. 
+We have also considered the possible fluctuation of interest rates. Similarly, we have generated another two paths for “r+1%” and “r-1%”, respectively, with the same approach.
+Below is a graph of 10-year risk-free interest rate projection including “r+1%” (up), “r” (normal) and “r-1%”(down)
+![interest proj](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/112842704/954e4d6d-94ba-4499-9028-eada5370b898)
+For more details, refer to Appendix 4.
+Modelling 4: Face amount distribution by age group for both policy types
+Methodology: 
+The levels of coverage, premiums, and terms may vary by policy type. In this sense, we conducted our face amount by their policy type first, as in T20 and SPWL, then we divided them into different age groups respectively, i.e., the age range of T20 is from 26 to 55, while of SPWL is 35 to 65 and each segment is five years. Then, we can obtain the Average column “Average FA” (Appendix 5) 
+Output: 
+|Product|Key Age|Age range|Average FA|Count(%)|
+|:---:|:---:|:---:|:---:|:---:|
+|T20|26|26-29|528272.8|13.30%|
+|T20|30|30-35|575823.7|20.00%|
+|T20|40|36-45|613664.2|33.40%|
+|T20|50|46-50|630886.9|16.63%|
+>Note:  The most representative age is selected as the critical age for following modelling.
 
 ## Modelling and Pricing	
 ## Scenario analysis
