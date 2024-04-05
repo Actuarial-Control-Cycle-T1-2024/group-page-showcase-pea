@@ -67,36 +67,16 @@ For details, please refer to the Appendix 10 sheet Excel file in “Results”.
 *	On minimum face amount testing, we found that under the old minimum face amount (Č50,000), four of our crucial age groups will result in a loss. After testing, a minimum face amount of Č430,000 is recommended.
 
 ## Risks and Risk Mitigation Plans	
-### Risks
-#### Inflation Risk: 
-The cost of implementing and maintaining health incentive programs may exceed projections due to inflation, impacting profitability.
-#### Engagement Risk: 
-Insured individuals may engage with the health incentive programs less than expected, reducing the effectiveness of these programs.
-#### Model Risk: 
-Difficulty in accurately measuring the health outcomes resulting from the incentives can lead to challenges in assessing the program's effectiveness.
-#### Long-Term Sustainability Risk: 
-There might be concerns about the long-term sustainability of the incentives if health improvements do not lead to reduced claims.
-#### Misuse Risk: 
-There is a potential for misuse of health incentives, where individuals might find ways to exploit the system without actually improving their health.
-#### Regulation risk: 
-Insurance programs must comply with everchanging regulations, which can vary over time.
-#### Social impact risk: 
-Large-scale health programs may have unexpected social impacts, such as increased stress or social dislocation due to changes in coverage or benefits.
-### Risk Mitigation Strategies
-#### Inflation risk hedging: 
-A long-term contract with a service provider can mitigate inflation risks in a project.
-#### Engagement Strategies: 
-Develop robust engagement strategies, like gamification or personalized goals, to encourage participation in health programs.
-#### Partnerships: 
-Collaborate with healthcare providers and wellness experts to develop and refine incentive programs based on best practices and current research.
-#### Long-Term Incentive Adjustment: 
-Review and adjust incentives over time to ensure they remain effective and sustainable in promoting healthier behaviours and reducing insurance claims.
-#### Program Design: 
-Create incentive programs that require demonstrable health improvements, such as biometric screenings, to qualify for benefits.
-#### Dedicated Regulation Team: 
-Stay informed about regulatory changes and adjust programs as needed.
-#### Societal Monitoring: 
-Monitor on social impacts and adjust programs to minimize adverse effects. Engage with people in the community to maintain social cohesion.
+| Risks                                                  | Risk Mitigation Strategies                                                                                     |
+|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Inflation Risk: The cost of implementing and maintaining health incentive programs may exceed projections due to inflation, impacting profitability. | Inflation risk hedging: A long-term contract with a service provider can mitigate inflation risks in a project. |
+| Engagement Risk: Insured individuals may engage with the health incentive programs less than expected, reducing the effectiveness of these programs. | Engagement Strategies: Develop robust engagement strategies, like gamification or personalized goals, to encourage participation in health programs. |
+| Model Risk: Difficulty in accurately measuring the health outcomes resulting from the incentives can lead to challenges in assessing the program's effectiveness. | Partnerships: Collaborate with healthcare providers and wellness experts to develop and refine incentive programs based on best practices and current research. |
+| Long-Term Sustainability Risk: There might be concerns about the long-term sustainability of the incentives if health improvements do not lead to reduced claims. | Long-Term Incentive Adjustment: Review and adjust incentives over time to ensure they remain effective and sustainable in promoting healthier behaviours and reducing insurance claims. |
+| Misuse Risk: There is a potential for misuse of health incentives, where individuals might find ways to exploit the system without actually improving their health. | Program Design: Create incentive programs that require demonstrable health improvements, such as biometric screenings, to qualify for benefits. |
+| Regulation risk: Insurance programs must comply with ever-changing regulations, which can vary over time. | Dedicated Regulation Team: Stay informed about regulatory changes and adjust programs as needed. |
+| Social impact risk: Large-scale health programs may have unexpected social impacts, such as increased stress or social dislocation due to changes in coverage or benefits. | Societal Monitoring: Monitor on social impacts and adjust programs to minimize adverse effects. Engage with people in the community to maintain social cohesion. |
+
 
 ## Data Limitations	
 | Data limitation                                      | Description                                                                                                                                                           | Corresponding Assumptions                                                                                              | Justification                                                                                                                                                                                                                           |
