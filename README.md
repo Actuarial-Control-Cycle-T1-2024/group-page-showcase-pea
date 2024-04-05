@@ -110,13 +110,13 @@ Monitor on social impacts and adjust programs to minimize adverse effects. Engag
 The introduction of a health incentive program to our product lineup, without undergoing repricing, represents a strategic enhancement to SuperLife's competitiveness and appeal. This initiative, designed to align with increasing consumer demand for value-added services, involves strategic adjustments to the minimum face amounts following scenario testing to ensure financial stability and prevent potential losses. By offering these programs at competitive pricing within Lumaria's economic environment, we not only make our life insurance products more accessible but also foster a win-win situation for both policyholders and the company. The health incentive program aims to encourage healthier lifestyles among policyholders, potentially reducing overall risk profiles and leading to lower claim rates, which, in turn, supports SuperLife's profitability and policyholder satisfaction. This approach underscores our commitment to innovation, helping policyholders achieve financial prosperity and peace of mind, maintaining financial stability, and positioning SuperLife as a forward-thinking insurer in the market.
 
 ## Appendix	
-Appendix 1: Further Data Cleaning
+### Appendix 1: Further Data Cleaning
 
 Outlier Detection and Treatment: 
 Identifying and addressing outliers in variables such as face amount and policyholder age, which could otherwise distort analysis findings.
 These cleaning steps addressed significant data quality issues, laying a solid foundation for the subsequent analysis. The meticulous approach to preparing the dataset highlights the importance of accuracy and integrity in data analysis, ensuring that the insights drawn are reliable and actionable.
 
-Appendix 2: Tendency, distribution and key findings:
+### Appendix 2: Tendency, distribution and key findings:
 
 Numerical Variables:
 
@@ -153,7 +153,7 @@ Diverse Survival Probabilities:
 
 The survival analysis reveals varied probabilities of policy continuation across different demographic and policy type segments, highlighting the need for tailored approaches in policy design, pricing, and customer engagement strategies.
 
-Appendix 3: Detailed methodology of Trend of Lapse rate:
+### Appendix 3: Detailed methodology of Trend of Lapse rate:
 
 ![1712298982727](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/244f958a-0833-41b0-8d11-393769b0f3e4)
 
@@ -167,17 +167,17 @@ Holding.length: the duration of the policyholders’
 PYod: Policy Year of Death
 obs_time: observation time
 
-Appendix 4: Interest projection
+### Appendix 4: Interest projection
 Output: 
 Through this, we have obtained the table on the right. This table shows the 10-year risk-free interest rate forecast, along with its critical confidence interval values.
 
 ![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/f2c9c0ab-41c8-4625-a9eb-4ca72a9d12d8)
 
-Appendix 5: Face amount analysis by policy type weighted average calculation.
+### Appendix 5: Face amount analysis by policy type weighted average calculation.
 
 Taking T20 as an example, we first calculated the weighted average of face amount at each age We grouped them by the abovementioned segment and then calculated a further weighted average of each age group. We have also computed the percentage of each age group that takes up the population of a particular policy type.
 
-Appendix 6. Cost Effectiveness of the Programs
+### Appendix 6. Cost Effectiveness of the Programs
 | Cost Effectiveness | Intervention Names                                  |
 |--------------------|-----------------------------------------------------|
 | 0.016091954        | Wellness Programs                                   |
@@ -232,9 +232,81 @@ Appendix 6. Cost Effectiveness of the Programs
 | 0.057142857        | Ergonomic Workstation Assessments                   |
 | 0.072716004        | average                                             |
 
+
+![1712299297108](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/2ce45cd0-2ec2-44a6-b69b-233deaa6fcd2)
+
+### Appendix 7: Detailed information on safety campaigns 
+
+#### Home Safety inventions programs
+
+1)	Fire safety education
+The findings of Lehna et al. have underscored the importance of fire safety education. These studies reveal that home fire safety (HFS) education programs in the United States have notably improved HFS knowledge. Such programs are vital in enhancing the understanding of fire prevention strategies among older adults, ultimately contributing reducing fire-related incidents and fatalities.
+
+3)	Fall prevention education (FPE)
+WHO announced that fall-related deaths are highest among the age group over 70 (World Health Organization, 2021). According to Windle, Francis and Coomber, fall prevention education can effectively reduce injuries and deaths by educating fall behaviour and promoting fall risk awareness among older people.
+
+#### Social Connection Initiatives
+
+1)	 Befriending
+Befriending provides support and social interaction through establishing friendships, usually by volunteers. Studies have shown that regular visits, phone contact, or attending social events together can reduce feelings of loneliness and depression and improve life satisfaction and social support (Butler & Sandra, 2006).
+
+3)	Mentoring 
+Activities include providing advice, sharing experiences, and providing support can increase self-esteem, self-confidence, and social skills, helping to reduce feelings of social isolation (Greaves & Farbus, 2006)
+
+### Appendix 8: distribution and trend of smoking status
+![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/85c2a6b1-dc5a-46fc-b089-31eb90dec5a2)
+![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/a50d5d87-7255-4e69-8744-0129c37f3b34)
+
+### Appendix 9. “Distribution” from Excel file
+
+#### SPWL
+| Age | PPP | FA       | Count   | Loading | NP    | GP    |
+|-----|-----|----------|---------|---------|-------|-------|
+| 26  | 1   | 770,000  | 16.10%  | 36.53%  | 3,531 | 5,563 |
+| 30  | 1   | 770,000  | 19.43%  | 36.51%  | 3,807 | 5,997 |
+| 40  | 1   | 770,000  | 32.17%  | 36.26%  | 4,588 | 7,199 |
+| 50  | 1   | 770,000  | 16.17%  | 37.49%  | 5,494 | 8,790 |
+| 55  | 1   | 770,000  | 16.13%  | 38.53%  | 5,989 | 9,742 |
+
+#### T20
+| Age | PPP | FA       | Count  | Loading | NP  | GP  |
+|-----|-----|----------|--------|---------|-----|-----|
+| 35  | 20  | 530,000  | 13.30% | 37.00%  | 19  | 31  |
+| 40  | 20  | 580,000  | 20.00% | 29.41%  | 31  | 43  |
+| 50  | 20  | 610,000  | 33.40% | 29.72%  | 77  | 109 |
+| 60  | 20  | 630,000  | 16.63% | 30.00%  | 198 | 283 |
+| 65  | 20  | 640,000  | 16.67% | 28.00%  | 327 | 454 |
+### Appendix 10: Results
+![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/6fc5640a-d8eb-4a10-a259-5681ca353801)
+![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/0aa2ffbe-231a-4ffd-99c2-f60a912655a3)
+
 ## Reference list	
 
+- Butler, S. (2006). Evaluating the Senior Companion Program. *Journal of gerontological social work*, 47, 45-70. [doi:10.1300/J083v47n01_05](https://doi.org/10.1300/J083v47n01_05).
 
+- CDC (2023). How Does Social Connectedness Affect Health? Centers for Disease Control and Prevention. Available at: [CDC Website](https://www.cdc.gov/emotional-wellbeing/social-connectedness/affect-health.htm).
+
+- DiGuiseppi, C., Jacobs, D. E., Phelan, K. J., Mickalide, A. D., & Ormandy, D. (2010). Housing Interventions and Control of Injury-Related Structural Deficiencies: A Review of the Evidence. *Journal of Public Health Management and Practice*, 16(5), S34-S43. [https://doi.org/10.1097/PHH.0b013e3181e28b10](https://doi.org/10.1097/PHH.0b013e3181e28b10).
+
+- Greaves, C.J. & Farbus, L. (2006). Effects of creative and social activity on the health and well-being of socially isolated older people: outcomes from a mulit-method observational study. *The Journal of the Royal Society for the Promotion of Health*, vol 126, no 3, pp 133−142.
+
+- Holt-Lunstad, J., Smith, T.B. and Layton, J.B. (2010). Social Relationships and Mortality Risk: A Meta-analytic Review. *PLoS Medicine*, 7(7). [doi:https://doi.org/10.1371/journal.pmed.1000316](https://doi.org/10.1371/journal.pmed.1000316).
+
+- Runyan, C. W., & Casteel, C. (2004). The state of home safety in America. Facts about unintentional injuries in the home. 2nd ed. Washington DC: Home Safety Council.
+
+- J, H.-L., Tb, S., M, B., T, H. and D, S. (2015). Loneliness and Social Isolation as Risk Factors for Mortality: A Meta-Analytic Review. *Perspectives on psychological science: a journal of the Association for Psychological Science*. Available at: [PubMed](https://pubmed.ncbi.nlm.nih.gov/25910392/).
+
+- Lehna C, Merrell J, Furmanek S, Twyman S (2017) Home fire safety intervention pilot with urban older adults living in Wales. *Burns*, 43:69-75. Available at: [https://doi.org/10.1016/j.burns.2016.06.025](https://doi.org/10.1016/j.burns.2016.06.025).
+
+- Lundgren, R.S., Kramer, C.B., Rivara, F.P., Wang, J., Heimbach, D.M., Gibran, N.S., et al. (2009). Influence of comorbidities and age on outcome following burn injury in older adults. *Journal of Burn Care Research*, 30(2):307-314. [http://dx.doi.org/10.1097/BCR.0b013e318198a416](http://dx.doi.org/10.1097/BCR.0b013e318198a416)PMID:19165104.
+
+- National Academies of Sciences, E. (2020). Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System. National Academies Press. Available at: [National Academies Press](https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the).
+
+- Valtorta, Nicole & Kanaan, Mona & Gilbody, Simon & Ronzi, Sara & Hanratty, Barbara. (2016). Loneliness and social isolation as risk factors for coronary heart disease and stroke: Systematic review and meta-analysis of longitudinal observational studies. *Heart*, 102. doi:10.1136/heartjnl-2015-308790.
+
+- Windle, K., Francis, J. and Coomber, C. (2011). Preventing Loneliness and Social isolation: Interventions and Outcomes
+
+- World Health Organization (2021). Falls. [online] World Health Organization. Available at: https://www.who.int/news-room/fact-sheets/detail/falls.
 
 
 
