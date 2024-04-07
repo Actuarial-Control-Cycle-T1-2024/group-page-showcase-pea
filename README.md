@@ -148,6 +148,7 @@ For details, please refer to the Appendix 10 sheet Excel file in “Results”.
 *	Under the worst-case scenario, PM and VNBM are still positive.
 *	On invest yield stress testing, we will face a nearly zero PM (0.35%) and negative VNBM (-5.21%)
 *	On minimum face amount testing, we found that under the old minimum face amount (Č100,000), two of our key age groups will result in a loss. After testing, a minimum face amount of Č160,000 is recommended.
+
 ### T20
 * With the same premium charged, the profitability is improved after the implementation of the health incentive program (PM 1.5% higher and VNBM 16.67% higher)
 *	Mortality is the most significant factor in sensitivity testing.
