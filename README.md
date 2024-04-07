@@ -86,15 +86,16 @@ Methodology:
 The levels of coverage, premiums, and terms may vary by policy type. In this sense, we conducted our face amount by their policy type first, as in T20 and SPWL, then we divided them into different age groups respectively, i.e., the age range of T20 is from 26 to 55, while of SPWL is 35 to 65 and each segment is five years. Then, we can obtain the Average column “Average FA” (Appendix 5) 
 Output: 
 
-![2471628ad25b666a715b0637818a1a6](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/24022971-7d45-477c-b140-1967d0074686)
-
+<p align="center">
+  <img src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/24022971-7d45-477c-b140-1967d0074686" alt="Image description">
+</p>
 >Note:  The most representative age is selected as the critical age for following modelling.
 
 #### Health Incentive Programs:
 In our ongoing commitment to the well-being and safety of our policyholders, we could find two most cost-effective health incentive programs: the Safety Campaign and Social Connection Initiatives, as shown in Figure 3 (Appendix 6). These programs are designed to address significant health risks and improve our community's overall quality of life, mainly focusing on the unique needs of adults over 70. For detailed information on health incentive programs, please refer to Appendix 7
-
+<p align="center">
 <img width="700" alt="image" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/112842704/f5585c8e-0441-4a1c-9e95-f0489bc02f50">
-
+</p>
 **Safety Campaign **
 The significance of unintentional home injuries cannot be understated. Lundgren et al. (2009) pointed out that, compared to younger adults, adults aged more than 70 face more significant risks and more severe outcomes from safety-related injuries and deaths. A similar study by Runyan and Casteel found that for individuals aged 70 and older, home injuries are responsible for over 7,000 deaths and 1.7 million emergency room visits annually in the United States alone. Addressing this issue, DiGuiseppi et al. (2010) emphasized that conducting safety education can effectively reduce mortality rates, underscoring the importance of education to mitigate the risks associated with unintentional home injuries among the elderly.
 
@@ -220,6 +221,7 @@ Then, as for the denominator, existing policies at policy year T are calculated 
 In the dataset, after data cleaning, the missing value in the column Year of Lapse and Year of Death is interpreted as “the event of death or lapse did not happen”, namely, the policyholder did not lapse or die within the 20 years. Therefore, it is reasonable to replace the blanks with 20. 
 
 ![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/3d54fc7c-e74b-426d-ae72-3a7dbf3a32d2)
+
 Holding.length: the duration of the policyholders’ 
 PYod: Policy Year of Death
 obs_time: observation time
