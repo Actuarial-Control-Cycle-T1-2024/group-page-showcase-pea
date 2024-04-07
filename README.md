@@ -63,10 +63,11 @@ Considering the profitability of an insurance product, it is essential to have u
 Methodology:
 Since we want to analyse the face amount insured of smokers and non-smokers separately, we have split the dataset by “Smoker. Status”. Each group is analysed by policy types. 
 Findings: 
-| | T20 | SPWL |
-|:---:|:---:|:---:|
-| Smoker | 434,165 | 658,947 |
-| Non-smoker | 618,139 | 771,984 |
+<p align="center">
+  <img src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/47a20a46-c6a9-4057-90b6-7987d843fb32" alt="Image description">
+</p>
+
+
 
 The average face amount insured by smokers is lower than that of non-smokers. Especially for T20 policyholders, there is a significant gap between these two groups. Therefore, the market and premium revenue from the Smoker group are relatively smaller than those of the Non-Smoker group. 
 Modelling 3: Projection of interest rate
@@ -84,17 +85,15 @@ Modelling 4: Face amount distribution by age group for both policy types
 Methodology: 
 The levels of coverage, premiums, and terms may vary by policy type. In this sense, we conducted our face amount by their policy type first, as in T20 and SPWL, then we divided them into different age groups respectively, i.e., the age range of T20 is from 26 to 55, while of SPWL is 35 to 65 and each segment is five years. Then, we can obtain the Average column “Average FA” (Appendix 5) 
 Output: 
-|Product|Key Age|Age range|Average FA|Count(%)|
-|:---:|:---:|:---:|:---:|:---:|
-|T20|26|26-29|528272.8|13.30%|
-|T20|30|30-35|575823.7|20.00%|
-|T20|40|36-45|613664.2|33.40%|
-|T20|50|46-50|630886.9|16.63%|
+
+![2471628ad25b666a715b0637818a1a6](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/24022971-7d45-477c-b140-1967d0074686)
+
 >Note:  The most representative age is selected as the critical age for following modelling.
 
 #### Health Incentive Programs:
 In our ongoing commitment to the well-being and safety of our policyholders, we could find two most cost-effective health incentive programs: the Safety Campaign and Social Connection Initiatives, as shown in Figure 3 (Appendix 6). These programs are designed to address significant health risks and improve our community's overall quality of life, mainly focusing on the unique needs of adults over 70. For detailed information on health incentive programs, please refer to Appendix 7
-<img width="283" alt="image" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/112842704/f5585c8e-0441-4a1c-9e95-f0489bc02f50">
+
+<img width="700" alt="image" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/112842704/f5585c8e-0441-4a1c-9e95-f0489bc02f50">
 
 **Safety Campaign **
 The significance of unintentional home injuries cannot be understated. Lundgren et al. (2009) pointed out that, compared to younger adults, adults aged more than 70 face more significant risks and more severe outcomes from safety-related injuries and deaths. A similar study by Runyan and Casteel found that for individuals aged 70 and older, home injuries are responsible for over 7,000 deaths and 1.7 million emergency room visits annually in the United States alone. Addressing this issue, DiGuiseppi et al. (2010) emphasized that conducting safety education can effectively reduce mortality rates, underscoring the importance of education to mitigate the risks associated with unintentional home injuries among the elderly.
@@ -156,24 +155,13 @@ For details, please refer to the Appendix 10 sheet Excel file in “Results”.
 *	On minimum face amount testing, we found that under the old minimum face amount (Č50,000), four of our crucial age groups will result in a loss. After testing, a minimum face amount of Č430,000 is recommended.
 
 ## Risks and Risk Mitigation Plans	
-| Risks                                                  | Risk Mitigation Strategies                                                                                     |
-|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Inflation Risk: The cost of implementing and maintaining health incentive programs may exceed projections due to inflation, impacting profitability. | Inflation risk hedging: A long-term contract with a service provider can mitigate inflation risks in a project. |
-| Engagement Risk: Insured individuals may engage with the health incentive programs less than expected, reducing the effectiveness of these programs. | Engagement Strategies: Develop robust engagement strategies, like gamification or personalized goals, to encourage participation in health programs. |
-| Model Risk: Difficulty in accurately measuring the health outcomes resulting from the incentives can lead to challenges in assessing the program's effectiveness. | Partnerships: Collaborate with healthcare providers and wellness experts to develop and refine incentive programs based on best practices and current research. |
-| Long-Term Sustainability Risk: There might be concerns about the long-term sustainability of the incentives if health improvements do not lead to reduced claims. | Long-Term Incentive Adjustment: Review and adjust incentives over time to ensure they remain effective and sustainable in promoting healthier behaviours and reducing insurance claims. |
-| Misuse Risk: There is a potential for misuse of health incentives, where individuals might find ways to exploit the system without actually improving their health. | Program Design: Create incentive programs that require demonstrable health improvements, such as biometric screenings, to qualify for benefits. |
-| Regulation risk: Insurance programs must comply with ever-changing regulations, which can vary over time. | Dedicated Regulation Team: Stay informed about regulatory changes and adjust programs as needed. |
-| Social impact risk: Large-scale health programs may have unexpected social impacts, such as increased stress or social dislocation due to changes in coverage or benefits. | Societal Monitoring: Monitor on social impacts and adjust programs to minimize adverse effects. Engage with people in the community to maintain social cohesion. |
+
+![47dfe8563360f6225e87000e24cc073](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/e89e9c7c-cf8b-4dd9-a0a0-367545e77dbd)
 
 
 ## Data Limitations	
-| Data limitation                                      | Description                                                                                                                                                           | Corresponding Assumptions                                                                                              | Justification                                                                                                                                                                                                                           |
-|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lack of data on the effectiveness and cost of incentive programs | The dataset provides minimal information on the Approximate Per Capita Cost of intervention, making it challenging to analyse the accurate cost of effectiveness. | Assume effectiveness varies, as mentioned in the assumption section.                                                   | This assumption is justified by the need to use available data to extrapolate potential costs and benefits.                                                                                                                            |
-| Lack of detailed policyholder behaviour data         | The datasets provide limited insights into policyholders' behaviours that might lead to policy lapses or claims, such as significant lifestyle changes or shifts in financial status. | Assume the policyholder behaviour which could influence lapse or mortality rates remains consistent through the policy term. | This assumption is necessary due to the need for longitudinal data on policyholder behaviour changes over time. It not only simplifies the model but also highlights the importance of understanding the dynamic data.                 |
-| Lack of data on external economic factors            | The datasets do not include other economic data except inflation and interest spot rates; other factors, such as unemployment rates, may also influence the lapse rate. | Assume all other external economic factors do not have a consistent or significant impact on the model’s predictions regarding policy lapses and mortality rates. | This assumption allows the analysis to proceed while acknowledging the limitation of not considering a complete economic perspective.                                                                                                   |
-| Limited severity on smoker status                    | The datasets classify policyholders simply as smokers or non-smokers without accounting for the quantity or duration of smoking, which would significantly affect mortality and lapse rates. | Assume the smoker status classification is sufficiently binary for the analysis.                                         | This assumption allows the analysis to proceed with available data.                                                                                                                                                                      |
+
+![b410e969c5674c91d41f0be4eb82524](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/b5afac3c-b5d3-475f-91d6-f22fb3be7c36)
 
 ## Final Recommendations
 The introduction of a health incentive program to our product lineup, without undergoing repricing, represents a strategic enhancement to SuperLife's competitiveness and appeal. This initiative, designed to align with increasing consumer demand for value-added services, involves strategic adjustments to the minimum face amounts following scenario testing to ensure financial stability and prevent potential losses. By offering these programs at competitive pricing within Lumaria's economic environment, we not only make our life insurance products more accessible but also foster a win-win situation for both policyholders and the company. The health incentive program aims to encourage healthier lifestyles among policyholders, potentially reducing overall risk profiles and leading to lower claim rates, which, in turn, supports SuperLife's profitability and policyholder satisfaction. This approach underscores our commitment to innovation, helping policyholders achieve financial prosperity and peace of mind, maintaining financial stability, and positioning SuperLife as a forward-thinking insurer in the market.
@@ -247,59 +235,9 @@ Through this, we have obtained the table on the right. This table shows the 10-y
 Taking T20 as an example, we first calculated the weighted average of face amount at each age We grouped them by the abovementioned segment and then calculated a further weighted average of each age group. We have also computed the percentage of each age group that takes up the population of a particular policy type.
 
 ### Appendix 6. Cost Effectiveness of the Programs
-| Cost Effectiveness | Intervention Names                                  |
-|--------------------|-----------------------------------------------------|
-| 0.016091954        | Wellness Programs                                   |
-| 0.042857143        | Fitness Tracking Incentives                         |
-| 0.011481056        | Smoking Cessation Programs                          |
-| 0.014354067        | Annual Health Check-ups                             |
-| 0.035555556        | Telemedicine Services                               |
-| 0.133333333        | Healthy Eating Campaigns                            |
-| 0.014354067        | Weight Management Programs                          |
-| 0.025287356        | Mental Health Support                               |
-| 0.013793103        | Financial Planning Assistance                       |
-| 0.057142857        | Educational Workshops                               |
-| 0.095238095        | Incentives for Vaccinations                         |
-| 0.013793103        | Regular Dental Check-ups                            |
-| 0.011494253        | Vision Care Programs                                |
-| 0.177777778        | Safety Campaigns                                    |
-| 0.023076923        | Driving Safety Courses                              |
-| 0.034482759        | Heart Health Screenings                             |
-| 0.014354067        | Chronic Disease Management                          |
-| 0.076190476        | Sleep Hygiene Programs                              |
-| 0.155555556        | Community Fitness Challenges                        |
-| 0.00861244         | Discounted Gym Memberships                          |
-| 0.133333333        | Online Health Resources                             |
-| 0.020689655        | Personalized Health Plans                           |
-| 0.133333333        | Well-being Apps                                     |
-| 0.111111111        | Hydration Campaigns                                 |
-| 0.133333333        | Sun Safety Awareness                                |
-| 0.057142857        | Emergency Preparedness Training                     |
-| 0.177777778        | Social Connection Initiatives                       |
-| 0.104761905        | Holistic Stress Reduction                           |
-| 0.066666667        | Financial Incentives for Healthy Behaviour          |
-| 0.013793103        | Genetic Testing                                     |
-| 0.020689655        | Alcohol Moderation Programs                         |
-| 0.133333333        | Environmental Wellness                              |
-| 0.018390805        | Employee Assistance Programs                        |
-| 0.057142857        | Holistic Nutrition Education                        |
-| 0.142857143        | Incentives for Preventive Screenings                |
-| 0.020689655        | Holistic Health Assessments                         |
-| 0.142857143        | Cancer Prevention Initiatives                       |
-| 0.133333333        | Community Gardens                                   |
-| 0.085714286        | Active Aging Programs                               |
-| 0.076190476        | Home Safety Inspections                             |
-| 0.104761905        | Mindfulness Programs                                |
-| 0.133333333        | Parenting Support Services                          |
-| 0.133333333        | Travel Safety Tips                                  |
-| 0.057142857        | Financial Literacy Workshops                        |
-| 0.085714286        | Hiking and Outdoor Activities Groups                |
-| 0.085714286        | Cognitive Health Programs                           |
-| 0.133333333        | Art and Creativity Classes                          |
-| 0.020689655        | Mind-Body Wellness Retreats                         |
-| 0.066666667        | Incentives for Regular Medication Adherence         |
-| 0.057142857        | Ergonomic Workstation Assessments                   |
-| 0.072716004        | average                                             |
+
+![65f93a03f8df7bc413aa9c8c16fc37f](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/c25a47a0-76dd-4c40-a9c7-d7598fdb5ae6)
+
 
 
 ![1712299297108](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/2ce45cd0-2ec2-44a6-b69b-233deaa6fcd2)
@@ -329,22 +267,14 @@ Activities include providing advice, sharing experiences, and providing support 
 ### Appendix 9. “Distribution” from Excel file
 
 #### SPWL
-| Age | PPP | FA       | Count   | Loading | NP    | GP    |
-|-----|-----|----------|---------|---------|-------|-------|
-| 26  | 1   | 770,000  | 16.10%  | 36.53%  | 3,531 | 5,563 |
-| 30  | 1   | 770,000  | 19.43%  | 36.51%  | 3,807 | 5,997 |
-| 40  | 1   | 770,000  | 32.17%  | 36.26%  | 4,588 | 7,199 |
-| 50  | 1   | 770,000  | 16.17%  | 37.49%  | 5,494 | 8,790 |
-| 55  | 1   | 770,000  | 16.13%  | 38.53%  | 5,989 | 9,742 |
+
+![41629d900b0ad099523c30f78b57710](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/84556f0e-3340-40c0-93b4-d742c9d947d4)
+
 
 #### T20
-| Age | PPP | FA       | Count  | Loading | NP  | GP  |
-|-----|-----|----------|--------|---------|-----|-----|
-| 35  | 20  | 530,000  | 13.30% | 37.00%  | 19  | 31  |
-| 40  | 20  | 580,000  | 20.00% | 29.41%  | 31  | 43  |
-| 50  | 20  | 610,000  | 33.40% | 29.72%  | 77  | 109 |
-| 60  | 20  | 630,000  | 16.63% | 30.00%  | 198 | 283 |
-| 65  | 20  | 640,000  | 16.67% | 28.00%  | 327 | 454 |
+
+![bbc96f9012adaaa7539fb038770f0fe](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/a2f839d9-fe3f-4e67-8e1b-f63ba0d2627d)
+
 ### Appendix 10: Results
 ![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/6fc5640a-d8eb-4a10-a259-5681ca353801)
 ![image](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-pea/assets/101699608/0aa2ffbe-231a-4ffd-99c2-f60a912655a3)
