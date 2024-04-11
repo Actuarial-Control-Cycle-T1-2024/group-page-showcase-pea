@@ -122,7 +122,21 @@ With all the information, the underwriter is to decide the rating of the underwr
 - Sub-standard 
 - Postpone
 - Decline
+
 The maximum sub-standard rate is up to 400% extra mortality.
+
+### Claim
+a. Manual control:
+Every claim case should be reviewed by authorized people who will decide whether the case
+needs further investigations or not prior to the case being closed. For example, if the death cases within two years were issued and were not caused by accidents, is there any misrepresentation of information on an application?
+b. System control:
+• If the insured reaches ultimate age as a policyholder of SPWL, the face amount is given.
+• If the insured dies as a policyholder of T20, a face amount with an unearned premium on a daily pro-rata basis is given.
+
+### Assumptions
+Mortality Rate and Improvement after Health Incentive Program:
+
+From Interventions Data, safety campaigns and social connection initiatives can offer a 3% to 5% reduction in mortality rate with costs ranging from Č10 to Č35, respectively. According to our research, we believe that the improvement will mainly impact people who are older than age 70. Since participating in these interventions is optional, we assume that all policyholders will join each of these interventions once per year, with a cost of Č40, and provide 5% mortality improvement after age 70 and 3% mortality improvement in other ages.
 
 Expenses:
 Besides the cost of the Health Incentive Program, we assume a variety of expenses from acquisition cost (under the basis of both per policy and % of premium), maintenance fee, commission fee (% of premium), taxation (premium tax, stability fund tax and federal tax) and solvency margins (% of accumulative reserve, % of net amount at risk and % of premium).
